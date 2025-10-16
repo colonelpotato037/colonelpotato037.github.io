@@ -1,0 +1,49 @@
+.recipe{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #0066cc;
+  text-decoration: none;
+  border: 2px solid #0066cc;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin: 50px;
+  font-size: auto;
+}
+.recipe:hover{
+	background-color: #0066cc;
+	color: black;
+	font-weight: bold;
+
+}
+.recipe.pancakes:hover{
+	transform: scale(2); /* makes it 10% bigger */
+	background-image: url("https://cdn.loveandlemons.com/wp-content/uploads/2025/01/pancake-recipe.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.recipe.pancakes{
+	font-family: arial, "Times New Roman";
+}
+.recipe.liver:hover{
+	transform: scale(2); /* makes it 10% bigger */
+	background-image: url("https://mangadigest.wordpress.com/wp-content/uploads/2018/10/wp-1540469617165-1774691721.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.recipe.liver{
+	font-family: helvitica, "Times New Roman";
+}
+.recipe.cutlet:hover{
+	transform: scale(2); /* makes it 10% bigger */
+	background-image: url("https://mangadigest.wordpress.com/wp-content/uploads/2018/11/wp-1541572897143590409427.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.recipe.cutlet{
+	font-family: verdana;
+}
+.image1{
+	border: 3px solid red;
+	border-radius: 10px;
+}
