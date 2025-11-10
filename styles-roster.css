@@ -1,0 +1,104 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #49a5de;
+}
+
+img {
+  width: 75px;
+  height: 100px;
+  scale: auto;
+  position: relative;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 12;
+  justify-content: center;
+
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 52px;
+  max-width: 150px;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+
+.box:hover{
+  transform: scale(2);
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+  border: black;
+}
+
+.header{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #2d7fb3;
+  padding: 30px;
+  gap: 8px;
+  list-style-type: none;
+  color: black;
+}
+
+
+.Goalkeepers{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+
+.Defenders{
+  display: flex;
+  justify-content: center;
+}
+
+.Coaches{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Midfielders{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Forwards{
+  display: flex;
+  justify-content: center;
+
+}
+
+.placeholder{
+  width: 100px;
+  height: 100px;
+}
+
+.Wingers{
+  display: flex;
+  justify-content: center;
+}
