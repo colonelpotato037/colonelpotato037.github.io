@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="contact.css">
+	<title></title>
+</head>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <h1 id="logo">Contact Us </h1>
+        <ul id="nav-links">
+            <!-- href jumps to section with that id -->
+            <li><a href="D:\website-final-project\main\index.html" class="link">Home</a></li>
+            <li><a href="D:\website-final-project\about\about.html" class="link">About</a></li>
+            <li><a href="D:\website-final-project\project\services.html" class="link" >Services</a></li>
+            <li><a href="D:\website-final-project\contact\contact.html" class="link">Contact Us</a></li></a></li>
+            <li><a href="D:\website-final-project\Portfolio\portfolio.html" class="link">Portfolio</a></li>
+        </ul>
+    </nav>
+<body>
+  <div class="contact">
+    <div class="contact-card">
+      <h1 id="contact-title">Contact Us</h1>
+      <p id="contact-description">
+        Feel free to send us a message about anything you might need help with. We would love to hear from you!
+      </p>
+
+      <div id="contact-fields">
+        <label class="contact-label" for="user_name">Name</label>
+        <input 
+          type="text"
+          id="user_name"
+          class="contact-input"
+          placeholder="Your name..."
+          required
+        />
+
+        <label class="contact-label" for="user_email">Email</label>
+        <input 
+          type="email"
+          id="user_email"
+          class="contact-input"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <label class="contact-label" for="message">Message</label>
+        <textarea
+          id="message"
+          class="contact-textarea"
+          placeholder="Your message..."
+          required
+        ></textarea>
+
+        <button id="submit-btn" class="contact-button">
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    position: absolute;
+    bottom: 5px; /* Aligns the bottom of the footer with the bottom of the body */
+    width: 100%; /* Ensures the footer spans the full width */
+    font-family: monospace;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 50;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 50;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+/* Ensure the parent container is relatively positioned */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh; /* Ensures body takes at least the full viewport height */
+    background-color: black; 
+    margin: 0; /* Remove default body margins */
+}
+
+/* Style the footer */
+footer {
+
+}
+
+/* Optional: Additional styling for main content to illustrate layout */
+main {
+    padding: 20px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.links a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: background-color 0.3s;
+}
+.links a:hover {
+  background-color: #555;
+  border-radius: 4px;
+  color: aliceblue;
+}
